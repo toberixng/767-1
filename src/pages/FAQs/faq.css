@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.faq-holder {
+  padding: 20px 15px;
+  border-width: 1px 0 1px 0;
+  border-style: solid;
+  border-color: #f4af1b76;
+  transition: 0.3s ease all;
+  /* margin: 10px 0; */
+  font-family: 'Poppins', sans-serif;
+}
+
+.question {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: 0.3s ease all;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.question:hover {
+  background-color: #f4af1b1c;
+}
+
+.question:focus ~ .answer {
+  max-height: 300px;
+  transition: 0.6s ease all;
+  animation-fill-mode: forwards;
+}
+
+.answer {
+  max-height: 0;
+  transition: 0.3s ease all;
+  overflow: hidden;
+  font-weight: 400;
+}
+.answer .line {
+  height: 5px;
+  border-radius: 3px;
+  width: 0%;
+  background-color: rgba(0, 21, 79, 0.718);
+  transition: 0.4s ease all;
+}
+
+.question:focus ~ .answer .line {
+  width: 100%;
+}
+.answer p {
+  text-align: left;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.answer p::after {
+  text-align: justify;
+}
+
+@keyframes down {
+  from {
+    opacit: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

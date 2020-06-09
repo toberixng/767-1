@@ -6,16 +6,14 @@ import ContentApp from './components/ContentApp';
 import ContentApp2 from './components/ContentApp2';
 import ContentApp3 from './components/ContentApp2';
 import Footer from './components/Footer'
+import FAQholder from './components/FAQholder';
+import FAQs from './pages/FAQs/FAQs';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <h1>767</h1>
-        <ContentApp />
-        <ContentApp2 />
-        <ContentApp3 />
-        <Footer />
+        <FAQs />
       </div>
     );
   }
