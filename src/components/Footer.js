@@ -4,7 +4,10 @@ class Footer extends Component {
     render() {
         return (
           <div style={footerStyle}>
-            <h1>Footer content</h1>
+            <h1
+            >
+              Footer content
+            </h1>
           </div>
         );
     }
@@ -12,14 +15,12 @@ class Footer extends Component {
 
 //Styling
 const footerStyle = {
-    position: 'fixed',
-    bottom: '0px',
-    textAlign: 'center',
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center'
-}
+  position: 'fixed',
+  bottom: '0px',
+  left: '50%',
+  top: '50%',
+  transform: 'translate(50%, 50%)',
+};
 
 // PropTypes
 Footer.propType = {
