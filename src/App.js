@@ -8,11 +8,13 @@ import ContentApp3 from './components/ContentApp2';
 import Footer from './components/Footer'
 import FAQholder from './components/FAQholder';
 import FAQs from './pages/FAQs/FAQs';
+import Header from './components/header/Header';
 
 class App extends Component {
   render() {
     return (
       <div>
+        <Header />
         <FAQs />
       </div>
     );

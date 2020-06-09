@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 100px 0 70px 0;
+    text-align: center;
+    color: #00154F;
+}
+
 .faq-holder {
   padding: 20px 15px;
   border-width: 1px 0 1px 0;
