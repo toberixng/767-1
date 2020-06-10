@@ -3,6 +3,7 @@ import './App.css';
 
 
 //Each content 
+import Header from './components/Header';
 import ContentApp from './components/ContentApp';
 import ContentApp2 from './components/ContentApp2';
 import ContentApp3 from './components/ContentApp2';
@@ -12,7 +13,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1>767</h1>
+         <Header />
         <ContentApp />
         <ContentApp2 />
         <ContentApp3 />
